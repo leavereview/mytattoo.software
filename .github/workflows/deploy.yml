@@ -31,4 +31,4 @@ jobs:
           REMOTE_USER: deploy
           SOURCE: dist/
           TARGET: /var/www/mytattoo.software/
-          ARGS: "-rlgoDzvc -i --delete"
+          ARGS: "-rltDvz --delete"
